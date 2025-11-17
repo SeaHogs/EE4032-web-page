@@ -1,0 +1,30 @@
+import type { Abi } from 'viem'
+
+export const erc20MetadataAbi = [
+  {
+    inputs: [],
+    name: 'decimals',
+    outputs: [
+      {
+        internalType: 'uint8',
+        name: '',
+        type: 'uint8',
+      },
+    ],
+    stateMutability: 'view',
+    type: 'function',
+  },
+  {
+    inputs: [],
+    name: 'symbol',
+    outputs: [
+      {
+        internalType: 'string',
+        name: '',
+        type: 'string',
+      },
+    ],
+    stateMutability: 'view',
+    type: 'function',
+  },
+] as const satisfies Abi

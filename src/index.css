@@ -1,0 +1,30 @@
+:root {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  color: #f5f7ff;
+  background-color: #0b0d17;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+pre {
+  margin: 0;
+  font-family: 'Fira Code', 'Source Code Pro', monospace;
+}
