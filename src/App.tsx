@@ -45,7 +45,7 @@ function App() {
 
     const { writeContractAsync } = useWriteContract()
 
-    // ✅ Hardcoded marketplace contract address
+    // Hardcoded marketplace contract address
     const MARKETPLACE_ADDRESS = '0xF02b8d9BaBe706f196b8e1C7b5AF82549aa6EA8B' as Address
 
     const [marketplaceStatus, setMarketplaceStatus] = useState<string>(
